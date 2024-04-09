@@ -1,0 +1,107 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+.timerBtn{
+    width: 80px;
+    height: 30px;
+    border: 3px solid;
+    border-radius: 12px;
+    background-color: #333333;
+    color: white;
+    cursor: pointer;
+    
+}
+
+#timeDisplay{
+    font-size: 75px;
+    color: #40c437;
+
+}
+
+#timeContainer{
+    text-align: center;
+    border: 3px solid;
+    border-radius: 25px;
+    background-color: #222222;
+}
+
+#gameDiv{
+    font-family: cursive;
+    border: 3px solid;
+    border-radius: 25px;
+    padding: 10px;
+    background-color: lightgrey;
+    text-align: center;
+    height: 500px;
+    font-size: 27px;
+
+}
+
+.choiceBtn{
+    line-height: 30px;
+    width: 150px;
+
+}
+
+#playerText{
+    color: blue;
+}
+#computerText{
+    color: red;
+}
+.cell{
+    width: 75px;
+    height: 75px;
+    border: 2px solid;
+    box-shadow: 0 0 0 2px;
+    line-height: 75px;
+    font-size: 50px;
+    cursor: pointer;
+}
+
+#gameContainer{
+    text-align: center;
+}
+
+#cellContainer{
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    width: 225px;
+    margin: auto;
+}
+
+#gamecon{
+    display: flex;
+    
+}
+
+#scoretext{
+    font-family: cursive;
+    font-size: 120px;
+    margin-left: 120px;
+}
+
+#resetbn{
+    font-family: cursive;
+    font-size: 40px;
+    width: 150px;
+    height: 50px;
+    border: 5px solid;
+    border-radius: 15px;
+    display: grid;
+    place-content: center;
+    cursor: pointer;
+    position: relative;
+    
+    margin-left: 80px;
+}
+
+
+#gameboard{
+    border: 3px solid;
+}
